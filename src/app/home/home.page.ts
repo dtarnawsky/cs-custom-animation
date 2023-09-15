@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
-import { customAnimation } from '../custom-animation';
 
 @Component({
   selector: 'app-home',
@@ -11,9 +10,7 @@ import { customAnimation } from '../custom-animation';
   imports: [IonicModule, RouterModule],
 })
 export class HomePage {
-
-  myAnimation: any;
   constructor() {
-    this.myAnimation = customAnimation;
+
   }
 }
