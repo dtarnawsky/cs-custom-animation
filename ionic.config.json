@@ -1,0 +1,7 @@
+{
+  "name": "cs-back-anim",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
